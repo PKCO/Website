@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christena | AI & Web Developer</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-inner"></div>
+            <div class="loader-text">LOADING</div>
+        </div>
+    </div>
+
+    <!-- Simplified Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo" data-text="Christena">Christena</div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link hover-underline">Home</a>
+                <a href="#about" class="nav-link hover-underline">About</a>
+                <a href="#projects" class="nav-link hover-underline">Projects</a>
+                <a href="#contact" class="nav-link hover-underline">Contact</a>
+                <a href="resume.pdf" class="btn-nav" target="_blank">Resume</a>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="text-stroke">HELLO</span>
+                    <span class="text-fill">I'M CHRISTENA</span>
+                </h1>
+                <div class="typewriter">
+                    <h2 class="hero-subtitle">AI & Full Stack Developer</h2>
+                </div>
+                <p class="hero-description">Creating immersive digital experiences with cutting-edge technology and innovative design.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">
+                        <span class="btn-text">View My Work</span>
+                        <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                    <a href="#contact" class="btn-secondary">
+                        <span class="btn-text">Contact Me</span>
+                        <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="kcoo.jpg" alt="Christena" class="profile-img">
+                    <div class="image-overlay"></div>
+                    <div class="image-border"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-header">
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                <span class="title-text">About Me</span>
+                <span class="title-line"></span>
+            </h2>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-intro">Hello! I'm Christena, an innovative Computer Science student specializing in AI & ML with hands-on experience in full-stack development.</p>
+                <p>Currently pursuing my B.Tech at GITAM University with a CGPA of 8.1, I've completed internships at Microsoft, Google Developers, and ApexPlanet Software.</p>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Technical Skills</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">Java, Python, C, R, SQL</li>
+                            <li class="skill-item">HTML, CSS, JavaScript, React</li>
+                            <li class="skill-item">Kotlin, Android Development</li>
+                            <li class="skill-item">TensorFlow, Machine Learning</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Experience</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">Full Stack Developer @ Steel Plant</li>
+                            <li class="skill-item">Android Developer @ Smart Knower</li>
+                            <li class="skill-item">AI Intern @ Microsoft</li>
+                            <li class="skill-item">Web Dev Intern @ ApexPlanet</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="about.html" class="btn-tertiary">
+                    <span class="btn-text">More About Me</span>
+                    <span class="btn-icon"><i class="fas fa-user"></i></span>
+                </a>
+            </div>
+            <div class="about-image">
+                <div class="image-wrapper">
+                    <img src="kcoo.jpg" alt="About Christena" class="about-img">
+                    <div class="image-frame"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                <span class="title-text">Featured Projects</span>
+                <span class="title-line"></span>
+            </h2>
+        </div>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-number">01</div>
+                    <h3 class="project-title">Loan Prediction System</h3>
+                    <p class="project-description">Machine Learning system to predict loan eligibility using various financial parameters.</p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>TensorFlow</li>
+                        <li>Scikit-learn</li>
+                        <li>Data Analysis</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Loan Prediction System">
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-number">02</div>
+                    <h3 class="project-title">E-commerce Mobile App</h3>
+                    <p class="project-description">Android application with secure payment integration and seamless shopping experience.</p>
+                    <ul class="project-tech">
+                        <li>Kotlin</li>
+                        <li>Android Studio</li>
+                        <li>Firebase</li>
+                        <li>UI/UX Design</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="E-commerce Mobile App">
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-number">03</div>
+                    <h3 class="project-title">Image Classification Model</h3>
+                    <p class="project-description">ANN model using CIFAR-10 dataset for image classification with deep learning.</p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>TensorFlow</li>
+                        <li>Deep Learning</li>
+                        <li>Computer Vision</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="#" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80" alt="Image Classification Model">
+                </div>
+            </div>
+        </div>
+        <div class="more-projects">
+            <a href="#" class="btn-primary">
+                <span class="btn-text">View All Projects</span>
+                <span class="btn-icon"><i class="fas fa-folder-open"></i></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                <span class="title-text">Get In Touch</span>
+                <span class="title-line"></span>
+            </h2>
+        </div>
+        <div class="contact-content">
+            <div class="contact-text">
+                <h3 class="contact-title">Let's Build Something Amazing Together</h3>
+                <p class="contact-description">I'm currently looking for new opportunities in AI/ML and full-stack development. My inbox is always open!</p>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <a href="mailto:kerenchristenapulagala@gmail.com">kerenchristenapulagala@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <a href="tel:+916304266952">+91 6304266952</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/christena-oliva-pulagala/" target="_blank">christena-oliva-pulagala</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/+916304266952" class="social-link" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contact-form" class="glass-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Name</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Message</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <button type="submit" class="btn-primary">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo" data-text="Christena">Christena</div>
+            </div>
+            <div class="footer-links">
+                <a href="#home" class="footer-link">Home</a>
+                <a href="#about" class="footer-link">About</a>
+                <a href="#projects" class="footer-link">Projects</a>
+                <a href="#contact" class="footer-link">Contact</a>
+                <a href="resume.pdf" class="footer-link" target="_blank">Resume</a>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-icon" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-icon" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Designed & Built by Christena</p>
+            <p>&copy; 2024 All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
